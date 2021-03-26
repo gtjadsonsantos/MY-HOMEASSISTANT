@@ -1,5 +1,7 @@
 # Home-Assistant Configuração 
 
+Hey ninja tudo bem ? fique a vontande para aprender com a minha configuração.  🤟 
+
 
 ## Automações
 
@@ -9,8 +11,9 @@
 
 ### Armazenamento
 
-  * Acada 30 dias há uma limpeza automática do bando de dados sqlite. [recorder.yaml](homeassistant/recorder.yaml)
-  
+  * Acada 30 dias há uma limpeza automática do banco de dados sqlite. [recorder.yaml](homeassistant/recorder.yaml)
+
+
 
 ## Licença
 
