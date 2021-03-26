@@ -1,0 +1,21 @@
+- alias: change theme based position sun
+  description: 'change theme based position sun'
+  trigger:
+  - entity_id: sun.sun
+    platform: state
+    to: above_horizon
+  - event: start
+    platform: homeassistant
+  - entity_id: sun.sun
+    platform: state
+    to: below_horizon
+  condition: []
+  action:
+  - data_template:
+      name: >
+        {% if states('sun.sun') == "above_horizon" %}
+          Google Light
+        {% else %}
+          Google Dark
+        {% endif %}
+    service: frontend.set_theme

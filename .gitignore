@@ -1,0 +1,6 @@
+homeassistant/.cloud
+homeassistant/.storage
+*.db
+*.log
+secrets.yaml
+.HA_VERSION
