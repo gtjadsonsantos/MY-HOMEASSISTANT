@@ -3,11 +3,13 @@
 
 ## Automações
 
-### Interface do Usuário
+### Interface
 
   * Altera o tema baseado na posição do sol . [theme_change.yaml](homeassistant/automations/theme_change.yaml)
 
 ### Armazenamento
+
+  
 
 ## Licença
 
